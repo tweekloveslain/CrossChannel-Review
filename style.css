@@ -1,0 +1,104 @@
+.page {
+    display: flex;
+}
+
+.content {
+    margin: 0 auto;
+    width: 33%;
+    background-color: #f7f8fe;
+    text-align: center;
+    width: clamp(650px, 45vw, 850px);
+}
+
+.left-side,
+.right-side {
+    width: 33%;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("./CrossChannelScreenshots/CCSky.jpg");
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    margin: 0;
+    margin-block-end: 0.5em;
+
+}
+
+a {
+    color: cornflowerblue;
+}
+
+p {
+    color: darkblue;
+    text-align: center;
+    margin: 0;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.left-aligned {
+    text-align: left;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+/*IMAGES AND SIDES*/
+
+.floating {
+    position: absolute;
+}
+
+.img1 {
+    /*position and size based on screen size*/
+    top: 6vw;
+    width: 20vw;
+    height: auto;
+    /*without transform, it would put the left edge of the img at the center*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img2 {
+    top: 30vh;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img3 {
+    top: 57vh;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img4 {
+    top: 80vh;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img5 {
+    top: 110vh;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img6 {
+    top: 145vh;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
